@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'GlacialIndifference';
+    src: url('../fonts/glacial-indifference/GlacialIndifference-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+
+@font-face {
+    font-family: 'GlacialIndifference';
+    src: url('../fonts/glacial-indifference/GlacialIndifference-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+
+@font-face {
+    font-family: 'GlacialIndifference';
+    src: url('../fonts/glacial-indifference/GlacialIndifference-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+  
+
+@font-face {
+    font-family: 'HelveticaNowText';
+    src: url('../fonts/helvetica/helveticanowtext-black-demo.ttf') format('truetype');
+    font-weight: 900;  
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'HelveticaNowText';
+    src: url('../fonts/helvetica/helveticanowtext-blackitalic-demo.ttf') format('truetype');
+    font-weight: 900;  
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'HelveticaNowText';
+    src: url('../fonts/helvetica/helveticanowtext-bold-demo.ttf') format('truetype');
+    font-weight: bold; 
+    font-style: normal;
+}
+  
+
+@font-face {
+    font-family: 'HelveticaNowText';
+    src: url('../fonts/helvetica/helveticanowtext-bolditalic-demo.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* FONT FOR ALL PARAGRAPHS */
+
+p, li {
+    font-family: 'GlacialIndifference';
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ENDS HERE */
+
+.max-width {
+    max-width: 90%;
+}
+
+/* HERO SECTION STARTS HERE */
+
+.hero-section {
+    max-width: 100%;
+    background-image: url(../assets/images/HeroBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-section-content {
+    display: flex;
+    flex-direction: column; 
+}
+
+.nav-bar {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.nav-bar a {
+    color: #fff;
+    font-family: 'GlacialIndifference';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.logo-container img {
+    width: 100px;
+    height: fit-content;
+}
+
+.hero-content {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#heading {
+    color: #fff;
+    font-family: 'GlacialIndifference';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 110px;
+    margin-bottom: 0;
+}
+
+.hero-content p {
+    color: #fff;
+    margin: 0;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+.button {
+    width: 10%;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.button a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'GlacialIndifference';
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* HERO SECTION ENDS HERE */
