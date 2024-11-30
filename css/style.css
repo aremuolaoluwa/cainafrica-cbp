@@ -60,7 +60,11 @@ body, html {
     font-style: italic;
 }
 
-/* FONT FOR ALL PARAGRAPHS */
+/* FOR ALL PARAGRAPHS */
+
+.max-width {
+    max-width: 95%;
+}
 
 p, li {
     font-family: 'GlacialIndifference';
@@ -68,11 +72,15 @@ p, li {
     font-weight: normal;
 }
 
-/* ENDS HERE */
-
-.max-width {
-    max-width: 95%;
+.aside {
+    width: 35%;
 }
+
+hr {
+    width: 95%;
+}
+
+/* ENDS HERE */
 
 /* HERO SECTION STARTS HERE */
 
@@ -173,7 +181,7 @@ p, li {
 
 #content {
     width: 80%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .info-btn {
@@ -181,11 +189,86 @@ p, li {
     text-align: center;
 }
 
-.aside {
-    width: 40%;
+.info-aside {
     background-image: url(../assets/images/5.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 /* INFO SECTION ENDS HERE */
+
+/* HELP SECTION STARTS */
+
+.help-section {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 -2px 0px rgba(196, 196, 196, 0.3);
+}
+
+.help-container,
+.donate-link
+{
+    width: 60%;
+    font-size: 1.3rem;
+}
+
+.donate-link a {
+    color: red;
+    text-decoration: none;
+    font-family: 'GlacialIndifference';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.help-aside {
+    background-image: url(../assets/images/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* HELP SECTION ENDS */
+
+/* TRUST SECTION STARTS */
+
+.trust-section {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trust-content {
+    width: 60%;
+    font-family: 'GlacialIndifference';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+
+.trust-aside {
+    background-image: url(../assets/images/1.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+/* TRUST SECTION ENDS */
+
+/* DONATE SECTION STARTS */
+
+.donate {
+    margin: 0 auto;
+}
+
+.donate-flex-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-items {
+    width: 30%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* DONATE SECTION ENDS */
