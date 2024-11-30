@@ -71,7 +71,7 @@ p, li {
 /* ENDS HERE */
 
 .max-width {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 /* HERO SECTION STARTS HERE */
@@ -141,6 +141,7 @@ p, li {
 
 .button a {
     color: #fff;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'GlacialIndifference';
@@ -149,3 +150,42 @@ p, li {
 }
 
 /* HERO SECTION ENDS HERE */
+
+/* INFO SECTION STARTS HERE */
+
+.info-section {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-flex-items {
+    width: 70%;
+}
+
+#section-heading {
+    color: red;
+    font-size: 2.2rem;
+    font-family: 'GlacialIndifference';
+    font-style: normal;
+    font-weight: 900;
+}
+
+#content {
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.info-btn {
+    width: 17%;
+    text-align: center;
+}
+
+.aside {
+    width: 40%;
+    background-image: url(../assets/images/5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* INFO SECTION ENDS HERE */
