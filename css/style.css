@@ -63,7 +63,7 @@ body, html {
 /* FOR ALL PARAGRAPHS */
 
 .max-width {
-    max-width: 95%;
+    max-width: 90%;
 }
 
 p, li {
@@ -162,7 +162,7 @@ hr {
 /* INFO SECTION STARTS HERE */
 
 .info-section {
-    margin: 10px auto;
+    margin: 5rem auto;
     display: flex;
     justify-content: space-between;
 }
@@ -180,8 +180,8 @@ hr {
 }
 
 #content {
-    width: 80%;
-    font-size: 1.3rem;
+    width: 60%;
+    font-size: 1.2rem;
 }
 
 .info-btn {
@@ -200,17 +200,16 @@ hr {
 /* HELP SECTION STARTS */
 
 .help-section {
-    margin: 20px auto;
+    margin: 5rem auto;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 -2px 0px rgba(196, 196, 196, 0.3);
 }
 
 .help-container,
 .donate-link
 {
-    width: 60%;
-    font-size: 1.3rem;
+    width: 50%;
+    font-size: 1.2rem;
 }
 
 .donate-link a {
@@ -232,17 +231,18 @@ hr {
 /* TRUST SECTION STARTS */
 
 .trust-section {
-    margin: 0px auto;
+    margin: 5rem auto;
     display: flex;
     justify-content: space-between;
 }
 
 .trust-content {
-    width: 60%;
+    width: 50%;
+    font-size: 1.2rem;
     font-family: 'GlacialIndifference';
     font-style: normal;
     font-weight: 900;
-    line-height: 1.5rem;
+    /* line-height: 1.2rem; */
 }
 
 .trust-aside {
@@ -256,12 +256,13 @@ hr {
 /* DONATE SECTION STARTS */
 
 .donate {
-    margin: 0 auto;
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 5rem;
 }
 
 .donate-flex-items {
     display: flex;
-    justify-content: space-between;
 }
 
 .flex-items {
@@ -269,6 +270,211 @@ hr {
     border: 1px solid #000;
     border-radius: 10px;
     padding: 10px;
+    font-size: 15px;
+}
+
+.bank-transfer {
+    width: 457px;
+    height: 420px;
+}
+
+.paypal {
+    width: 457px;
+    height: 268px;
+    margin-left: 7rem;
+align-self: flex-end;
+}
+
+.trsf-img {
+    width: 30%;
+    height: 30%;
+    background-image: url(../assets/images/BankTransfer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.paypal-img {
+    width: 70%;
+    height: 20%;
+    background-image: url(../assets/images/PayPal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.donate-btn {
+    width: 30%;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.donate-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'GlacialIndifference';
+    font-style: normal;
+    font-weight: 900;
 }
 
 /* DONATE SECTION ENDS */
+
+/* FAQs STARTS HERE */
+.faqs-section {
+    margin: 5rem auto;
+    display: flex;
+}
+
+.faqs-content {
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.info-mail a {
+    color: red;
+}
+
+.faq-link a {
+    text-decoration: none;
+    color: red;
+}
+
+.faq-aside {
+    background-image: url(../assets/images/2.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+/* FAQs ENDS HERE */
+
+/* FOOTER STARTS HERE */
+
+.footer-img img {
+    width: 100%;
+    /* margin-bottom: 10px; */
+    /* max-height: 100%; */
+    /* object-fit: cover; */
+}
+
+/* MEDIA QUERY | 320 &360 */
+
+@media (min-width: 320px) and (max-width: 360px) {
+
+    .aside {
+        display: none;
+    }
+
+    .hero-section {
+        max-width: 100%;
+        background-image: url(../assets/images/HeroBackground.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .hero-section-content {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .nav-bar {
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+    }
+    
+    .nav-bar a {
+        color: #fff;
+        font-family: 'GlacialIndifference';
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    .logo-container img {
+        width: 100px;
+        height: fit-content;
+    }
+    
+    .hero-content {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    #heading {
+        color: #fff;
+        font-family: 'GlacialIndifference';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 10vh;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-content p {
+        margin: 15rem auto;
+        color: #fff;
+        margin: 0;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    #hero-text br {
+        display: none;
+    }
+    
+    .button {
+        width: 50%;
+        margin: 2rem auto;
+        background-color: red;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    .button a {
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'GlacialIndifference';
+        font-style: normal;
+        font-weight: 900;
+    }
+
+    .max-width br {
+        display: none;
+    }
+    
+    .info-section {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .info-flex-items {
+        width: 100%;
+    }
+
+    #section-heading {
+        font-size: 2rem;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    .help-section {
+        max-width: 100%;
+    }
+
+    .help-text {
+        min-width: 100%;
+    }
+}
